@@ -5,11 +5,9 @@
 (generate_opam_files true)
 
 (source
- (github username/reponame))
+ (github Auburger/Overture-Assembler))
 
-(authors "Author Name <author@example.com>")
-
-(maintainers "Maintainer Name <maintainer@example.com>")
+(authors "Aubrie Chan <aubriechan07@gmail.com>")
 
 (license LICENSE)
 
@@ -17,7 +15,7 @@
 
 (package
  (name assembler)
- (synopsis "A short synopsis")
+ (synopsis "An assembler for the OVERTURE ISA from the game Turing Complete")
  (description "A longer description")
  (depends ocaml)
  (tags
