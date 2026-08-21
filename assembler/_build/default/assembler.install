@@ -1,0 +1,8 @@
+lib: [
+  "_build/install/default/lib/assembler/META"
+  "_build/install/default/lib/assembler/dune-package"
+  "_build/install/default/lib/assembler/opam"
+]
+bin: [
+  "_build/install/default/bin/assembler"
+]
