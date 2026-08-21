@@ -4,4 +4,6 @@ A while ago, I got really into a game called Turing Complete. Basically, it's a 
 
 Anyway, some of the levels after you build the computer (called the OVERTURE instruction set architecture in-game!) have you program it using a given assembly language. I thought it would be a fun idea to make an assembler for this language, converting it to the actual 8-bit binary instructions used by my in-game computer.
 
-If you like the game and have somehow found this page, feel free to clone the repo and play around! :D
+To use this assembler, call the assemble function on a list of commands (as strings). You should see a list of 8-bit binary numbers corresponding to the assembly program. Some test examples are given in the source.
+
+If you like the game and have somehow found this page, (or have never heard of this game and are still intrigued) feel free to clone the repo and play around! :D
